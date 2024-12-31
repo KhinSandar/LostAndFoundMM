@@ -1,0 +1,5 @@
+org.lostandfoundmm.test.app-core-1.6.1-0 C:\Users\kyawk\.gradle\caches\transforms-3\916c0baff71dbe7517bc93324d1af7ec\transformed\core-1.6.1\res
+org.lostandfoundmm.test.app-androidTest-1 E:\AndroidProjects\LostAndFoundMM\app\build\generated\res\resValues\androidTest\debug
+org.lostandfoundmm.test.app-mergeDebugAndroidTestResources-2 E:\AndroidProjects\LostAndFoundMM\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+org.lostandfoundmm.test.app-mergeDebugAndroidTestResources-3 E:\AndroidProjects\LostAndFoundMM\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+org.lostandfoundmm.test.app-merged_res-4 E:\AndroidProjects\LostAndFoundMM\app\build\intermediates\merged_res\debugAndroidTest

@@ -1,0 +1,205 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.lostandfoundmm"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="33" />
+10
+11    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+11-->E:\AndroidProjects\LostAndFoundMM\app\src\main\AndroidManifest.xml:5:5-79
+11-->E:\AndroidProjects\LostAndFoundMM\app\src\main\AndroidManifest.xml:5:22-76
+12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+12-->E:\AndroidProjects\LostAndFoundMM\app\src\main\AndroidManifest.xml:6:5-81
+12-->E:\AndroidProjects\LostAndFoundMM\app\src\main\AndroidManifest.xml:6:22-78
+13
+14    <!-- Include required permissions for Google Maps API to run. -->
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.google.android.gms:play-services-maps:19.0.0] C:\Users\kyawk\.gradle\caches\transforms-3\401fa3dcc0c3ad881dea51f4b22948f3\transformed\play-services-maps-19.0.0\AndroidManifest.xml:23:5-79
+15-->[com.google.android.gms:play-services-maps:19.0.0] C:\Users\kyawk\.gradle\caches\transforms-3\401fa3dcc0c3ad881dea51f4b22948f3\transformed\play-services-maps-19.0.0\AndroidManifest.xml:23:22-76
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->[com.google.android.gms:play-services-maps:19.0.0] C:\Users\kyawk\.gradle\caches\transforms-3\401fa3dcc0c3ad881dea51f4b22948f3\transformed\play-services-maps-19.0.0\AndroidManifest.xml:24:5-67
+16-->[com.google.android.gms:play-services-maps:19.0.0] C:\Users\kyawk\.gradle\caches\transforms-3\401fa3dcc0c3ad881dea51f4b22948f3\transformed\play-services-maps-19.0.0\AndroidManifest.xml:24:22-64
+17
+18    <uses-feature
+18-->[com.google.android.gms:play-services-maps:19.0.0] C:\Users\kyawk\.gradle\caches\transforms-3\401fa3dcc0c3ad881dea51f4b22948f3\transformed\play-services-maps-19.0.0\AndroidManifest.xml:26:5-28:35
+19        android:glEsVersion="0x00020000"
+19-->[com.google.android.gms:play-services-maps:19.0.0] C:\Users\kyawk\.gradle\caches\transforms-3\401fa3dcc0c3ad881dea51f4b22948f3\transformed\play-services-maps-19.0.0\AndroidManifest.xml:27:9-41
+20        android:required="true" />
+20-->[com.google.android.gms:play-services-maps:19.0.0] C:\Users\kyawk\.gradle\caches\transforms-3\401fa3dcc0c3ad881dea51f4b22948f3\transformed\play-services-maps-19.0.0\AndroidManifest.xml:28:9-32
+21
+22    <queries>
+22-->[com.google.android.gms:play-services-maps:19.0.0] C:\Users\kyawk\.gradle\caches\transforms-3\401fa3dcc0c3ad881dea51f4b22948f3\transformed\play-services-maps-19.0.0\AndroidManifest.xml:30:5-34:15
+23
+24        <!-- Needs to be explicitly declared on Android R+ -->
+25        <package android:name="com.google.android.apps.maps" />
+25-->[com.google.android.gms:play-services-maps:19.0.0] C:\Users\kyawk\.gradle\caches\transforms-3\401fa3dcc0c3ad881dea51f4b22948f3\transformed\play-services-maps-19.0.0\AndroidManifest.xml:33:9-64
+25-->[com.google.android.gms:play-services-maps:19.0.0] C:\Users\kyawk\.gradle\caches\transforms-3\401fa3dcc0c3ad881dea51f4b22948f3\transformed\play-services-maps-19.0.0\AndroidManifest.xml:33:18-61
+26    </queries>
+27
+28    <permission
+28-->[androidx.core:core:1.13.0] C:\Users\kyawk\.gradle\caches\transforms-3\05f5ae1d131d86f804653b60585001eb\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+29        android:name="org.lostandfoundmm.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+29-->[androidx.core:core:1.13.0] C:\Users\kyawk\.gradle\caches\transforms-3\05f5ae1d131d86f804653b60585001eb\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+30        android:protectionLevel="signature" />
+30-->[androidx.core:core:1.13.0] C:\Users\kyawk\.gradle\caches\transforms-3\05f5ae1d131d86f804653b60585001eb\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+31
+32    <uses-permission android:name="org.lostandfoundmm.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+32-->[androidx.core:core:1.13.0] C:\Users\kyawk\.gradle\caches\transforms-3\05f5ae1d131d86f804653b60585001eb\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+32-->[androidx.core:core:1.13.0] C:\Users\kyawk\.gradle\caches\transforms-3\05f5ae1d131d86f804653b60585001eb\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+33
+34    <application
+34-->E:\AndroidProjects\LostAndFoundMM\app\src\main\AndroidManifest.xml:8:5-37:19
+35        android:allowBackup="true"
+35-->E:\AndroidProjects\LostAndFoundMM\app\src\main\AndroidManifest.xml:9:9-35
+36        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+36-->[androidx.core:core:1.13.0] C:\Users\kyawk\.gradle\caches\transforms-3\05f5ae1d131d86f804653b60585001eb\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
+37        android:dataExtractionRules="@xml/data_extraction_rules"
+37-->E:\AndroidProjects\LostAndFoundMM\app\src\main\AndroidManifest.xml:10:9-65
+38        android:debuggable="true"
+39        android:extractNativeLibs="false"
+40        android:fullBackupContent="@xml/backup_rules"
+40-->E:\AndroidProjects\LostAndFoundMM\app\src\main\AndroidManifest.xml:11:9-54
+41        android:icon="@mipmap/ic_launcher"
+41-->E:\AndroidProjects\LostAndFoundMM\app\src\main\AndroidManifest.xml:12:9-43
+42        android:label="@string/app_name"
+42-->E:\AndroidProjects\LostAndFoundMM\app\src\main\AndroidManifest.xml:13:9-41
+43        android:roundIcon="@mipmap/ic_launcher_round"
+43-->E:\AndroidProjects\LostAndFoundMM\app\src\main\AndroidManifest.xml:14:9-54
+44        android:supportsRtl="true"
+44-->E:\AndroidProjects\LostAndFoundMM\app\src\main\AndroidManifest.xml:15:9-35
+45        android:testOnly="true"
+46        android:theme="@style/Theme.LostAndFoundMM" >
+46-->E:\AndroidProjects\LostAndFoundMM\app\src\main\AndroidManifest.xml:16:9-52
+47        <meta-data
+48            android:name="com.google.android.geo.API_KEY"
+48-->E:\AndroidProjects\LostAndFoundMM\app\src\main\AndroidManifest.xml:20:13-58
+49            android:value="AIzaSyDUjjHt09FtWQhhmxrF_7W3YSGPJ9o5v0A" />
+49-->E:\AndroidProjects\LostAndFoundMM\app\src\main\AndroidManifest.xml:21:13-44
+50        <meta-data
+50-->E:\AndroidProjects\LostAndFoundMM\app\src\main\AndroidManifest.xml:23:9-25:69
+51            android:name="com.google.android.gms.version"
+51-->E:\AndroidProjects\LostAndFoundMM\app\src\main\AndroidManifest.xml:24:13-58
+52            android:value="@integer/google_play_services_version" />
+52-->E:\AndroidProjects\LostAndFoundMM\app\src\main\AndroidManifest.xml:25:13-66
+53
+54        <activity
+54-->E:\AndroidProjects\LostAndFoundMM\app\src\main\AndroidManifest.xml:26:9-36:20
+55            android:name="org.lostandfoundmm.MainActivity"
+55-->E:\AndroidProjects\LostAndFoundMM\app\src\main\AndroidManifest.xml:27:13-41
+56            android:exported="true"
+56-->E:\AndroidProjects\LostAndFoundMM\app\src\main\AndroidManifest.xml:28:13-36
+57            android:label="@string/app_name"
+57-->E:\AndroidProjects\LostAndFoundMM\app\src\main\AndroidManifest.xml:29:13-45
+58            android:theme="@style/Theme.LostAndFoundMM.NoActionBar" >
+58-->E:\AndroidProjects\LostAndFoundMM\app\src\main\AndroidManifest.xml:30:13-68
+59            <intent-filter>
+59-->E:\AndroidProjects\LostAndFoundMM\app\src\main\AndroidManifest.xml:31:13-35:29
+60                <action android:name="android.intent.action.MAIN" />
+60-->E:\AndroidProjects\LostAndFoundMM\app\src\main\AndroidManifest.xml:32:17-69
+60-->E:\AndroidProjects\LostAndFoundMM\app\src\main\AndroidManifest.xml:32:25-66
+61
+62                <category android:name="android.intent.category.LAUNCHER" />
+62-->E:\AndroidProjects\LostAndFoundMM\app\src\main\AndroidManifest.xml:34:17-77
+62-->E:\AndroidProjects\LostAndFoundMM\app\src\main\AndroidManifest.xml:34:27-74
+63            </intent-filter>
+64        </activity>
+65
+66        <provider
+66-->[androidx.emoji2:emoji2:1.3.0] C:\Users\kyawk\.gradle\caches\transforms-3\94020f16cf9e4f2ecbb82250b53379ea\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+67            android:name="androidx.startup.InitializationProvider"
+67-->[androidx.emoji2:emoji2:1.3.0] C:\Users\kyawk\.gradle\caches\transforms-3\94020f16cf9e4f2ecbb82250b53379ea\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+68            android:authorities="org.lostandfoundmm.androidx-startup"
+68-->[androidx.emoji2:emoji2:1.3.0] C:\Users\kyawk\.gradle\caches\transforms-3\94020f16cf9e4f2ecbb82250b53379ea\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+69            android:exported="false" >
+69-->[androidx.emoji2:emoji2:1.3.0] C:\Users\kyawk\.gradle\caches\transforms-3\94020f16cf9e4f2ecbb82250b53379ea\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+70            <meta-data
+70-->[androidx.emoji2:emoji2:1.3.0] C:\Users\kyawk\.gradle\caches\transforms-3\94020f16cf9e4f2ecbb82250b53379ea\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+71                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+71-->[androidx.emoji2:emoji2:1.3.0] C:\Users\kyawk\.gradle\caches\transforms-3\94020f16cf9e4f2ecbb82250b53379ea\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+72                android:value="androidx.startup" />
+72-->[androidx.emoji2:emoji2:1.3.0] C:\Users\kyawk\.gradle\caches\transforms-3\94020f16cf9e4f2ecbb82250b53379ea\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+73            <meta-data
+73-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\kyawk\.gradle\caches\transforms-3\0870a7e1aab44e51fbc349fa446b3dbb\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:29:13-31:52
+74                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+74-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\kyawk\.gradle\caches\transforms-3\0870a7e1aab44e51fbc349fa446b3dbb\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:30:17-78
+75                android:value="androidx.startup" />
+75-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\kyawk\.gradle\caches\transforms-3\0870a7e1aab44e51fbc349fa446b3dbb\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:31:17-49
+76            <meta-data
+76-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\kyawk\.gradle\caches\transforms-3\81826f2f059787508325001318d2a70b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+77                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+77-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\kyawk\.gradle\caches\transforms-3\81826f2f059787508325001318d2a70b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+78                android:value="androidx.startup" />
+78-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\kyawk\.gradle\caches\transforms-3\81826f2f059787508325001318d2a70b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+79        </provider> <!-- Needs to be explicitly declared on P+ -->
+80        <uses-library
+80-->[com.google.android.gms:play-services-maps:19.0.0] C:\Users\kyawk\.gradle\caches\transforms-3\401fa3dcc0c3ad881dea51f4b22948f3\transformed\play-services-maps-19.0.0\AndroidManifest.xml:39:9-41:40
+81            android:name="org.apache.http.legacy"
+81-->[com.google.android.gms:play-services-maps:19.0.0] C:\Users\kyawk\.gradle\caches\transforms-3\401fa3dcc0c3ad881dea51f4b22948f3\transformed\play-services-maps-19.0.0\AndroidManifest.xml:40:13-50
+82            android:required="false" />
+82-->[com.google.android.gms:play-services-maps:19.0.0] C:\Users\kyawk\.gradle\caches\transforms-3\401fa3dcc0c3ad881dea51f4b22948f3\transformed\play-services-maps-19.0.0\AndroidManifest.xml:41:13-37
+83
+84        <activity
+84-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\kyawk\.gradle\caches\transforms-3\22682a366d8c9f6bf912b7b7e15ff8f5\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:9-173
+85            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+85-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\kyawk\.gradle\caches\transforms-3\22682a366d8c9f6bf912b7b7e15ff8f5\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:19-85
+86            android:exported="false"
+86-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\kyawk\.gradle\caches\transforms-3\22682a366d8c9f6bf912b7b7e15ff8f5\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:146-170
+87            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+87-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\kyawk\.gradle\caches\transforms-3\22682a366d8c9f6bf912b7b7e15ff8f5\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:86-145
+88
+89        <uses-library
+89-->[androidx.window:window:1.0.0] C:\Users\kyawk\.gradle\caches\transforms-3\595134b09cf7c2d0a55df5185c2a168c\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+90            android:name="androidx.window.extensions"
+90-->[androidx.window:window:1.0.0] C:\Users\kyawk\.gradle\caches\transforms-3\595134b09cf7c2d0a55df5185c2a168c\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+91            android:required="false" />
+91-->[androidx.window:window:1.0.0] C:\Users\kyawk\.gradle\caches\transforms-3\595134b09cf7c2d0a55df5185c2a168c\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+92        <uses-library
+92-->[androidx.window:window:1.0.0] C:\Users\kyawk\.gradle\caches\transforms-3\595134b09cf7c2d0a55df5185c2a168c\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+93            android:name="androidx.window.sidecar"
+93-->[androidx.window:window:1.0.0] C:\Users\kyawk\.gradle\caches\transforms-3\595134b09cf7c2d0a55df5185c2a168c\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+94            android:required="false" />
+94-->[androidx.window:window:1.0.0] C:\Users\kyawk\.gradle\caches\transforms-3\595134b09cf7c2d0a55df5185c2a168c\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+95
+96        <receiver
+96-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\kyawk\.gradle\caches\transforms-3\81826f2f059787508325001318d2a70b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+97            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+97-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\kyawk\.gradle\caches\transforms-3\81826f2f059787508325001318d2a70b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+98            android:directBootAware="false"
+98-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\kyawk\.gradle\caches\transforms-3\81826f2f059787508325001318d2a70b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+99            android:enabled="true"
+99-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\kyawk\.gradle\caches\transforms-3\81826f2f059787508325001318d2a70b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+100            android:exported="true"
+100-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\kyawk\.gradle\caches\transforms-3\81826f2f059787508325001318d2a70b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+101            android:permission="android.permission.DUMP" >
+101-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\kyawk\.gradle\caches\transforms-3\81826f2f059787508325001318d2a70b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+102            <intent-filter>
+102-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\kyawk\.gradle\caches\transforms-3\81826f2f059787508325001318d2a70b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+103                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+103-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\kyawk\.gradle\caches\transforms-3\81826f2f059787508325001318d2a70b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+103-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\kyawk\.gradle\caches\transforms-3\81826f2f059787508325001318d2a70b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+104            </intent-filter>
+105            <intent-filter>
+105-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\kyawk\.gradle\caches\transforms-3\81826f2f059787508325001318d2a70b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+106                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+106-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\kyawk\.gradle\caches\transforms-3\81826f2f059787508325001318d2a70b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+106-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\kyawk\.gradle\caches\transforms-3\81826f2f059787508325001318d2a70b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+107            </intent-filter>
+108            <intent-filter>
+108-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\kyawk\.gradle\caches\transforms-3\81826f2f059787508325001318d2a70b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+109                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+109-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\kyawk\.gradle\caches\transforms-3\81826f2f059787508325001318d2a70b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+109-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\kyawk\.gradle\caches\transforms-3\81826f2f059787508325001318d2a70b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+110            </intent-filter>
+111            <intent-filter>
+111-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\kyawk\.gradle\caches\transforms-3\81826f2f059787508325001318d2a70b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+112                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+112-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\kyawk\.gradle\caches\transforms-3\81826f2f059787508325001318d2a70b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+112-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\kyawk\.gradle\caches\transforms-3\81826f2f059787508325001318d2a70b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+113            </intent-filter>
+114        </receiver>
+115    </application>
+116
+117</manifest>

@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "C:\\Users\\kyawk\\.gradle\\daemon\\8.0\\org.lostandfoundmm.app-mergeDebugResources-51:\\layout\\fragment_home.xml",
+        "source": "C:\\Users\\kyawk\\.gradle\\daemon\\8.0\\org.lostandfoundmm.app-main-54:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "org.lostandfoundmm.app-mergeDebugResources-51:/layout/fragment_slideshow.xml",
+        "source": "org.lostandfoundmm.app-main-54:/layout/fragment_slideshow.xml"
+    },
+    {
+        "merged": "C:\\Users\\kyawk\\.gradle\\daemon\\8.0\\org.lostandfoundmm.app-mergeDebugResources-51:\\layout\\fragment_gallery.xml",
+        "source": "C:\\Users\\kyawk\\.gradle\\daemon\\8.0\\org.lostandfoundmm.app-main-54:\\layout\\fragment_gallery.xml"
+    },
+    {
+        "merged": "C:\\Users\\kyawk\\.gradle\\daemon\\8.0\\org.lostandfoundmm.app-mergeDebugResources-51:\\layout\\fragment_slideshow.xml",
+        "source": "C:\\Users\\kyawk\\.gradle\\daemon\\8.0\\org.lostandfoundmm.app-main-54:\\layout\\fragment_slideshow.xml"
+    },
+    {
+        "merged": "C:\\Users\\kyawk\\.gradle\\daemon\\8.0\\org.lostandfoundmm.app-mergeDebugResources-51:\\layout\\app_bar_main.xml",
+        "source": "C:\\Users\\kyawk\\.gradle\\daemon\\8.0\\org.lostandfoundmm.app-main-54:\\layout\\app_bar_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\kyawk\\.gradle\\daemon\\8.0\\org.lostandfoundmm.app-mergeDebugResources-51:\\layout\\content_main.xml",
+        "source": "C:\\Users\\kyawk\\.gradle\\daemon\\8.0\\org.lostandfoundmm.app-main-54:\\layout\\content_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\kyawk\\.gradle\\daemon\\8.0\\org.lostandfoundmm.app-mergeDebugResources-51:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\kyawk\\.gradle\\daemon\\8.0\\org.lostandfoundmm.app-main-54:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\kyawk\\.gradle\\daemon\\8.0\\org.lostandfoundmm.app-mergeDebugResources-51:\\layout\\nav_header_main.xml",
+        "source": "C:\\Users\\kyawk\\.gradle\\daemon\\8.0\\org.lostandfoundmm.app-main-54:\\layout\\nav_header_main.xml"
+    }
+]

@@ -1,11 +1,12 @@
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
+    id("com.google.android.libraries.mapsplatform.secrets-gradle-plugin")
 }
 
 android {
     namespace = "org.lostandfoundmm"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "org.lostandfoundmm"
@@ -35,6 +36,7 @@ android {
     }
     buildFeatures {
         viewBinding = true
+        buildConfig = true
     }
 }
 
@@ -51,4 +53,31 @@ dependencies {
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.2.1")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.6.1")
+
+    implementation("com.google.android.gms:play-services-maps:19.0.0")
+    // Maps SDK for Android KTX Library
+    implementation ("com.google.maps.android:maps-ktx:5.1.1")
+
+    // Maps SDK for Android Utility Library KTX Library
+    implementation( "com.google.maps.android:maps-utils-ktx:3.0.0")
+
+    // Lifecycle Runtime KTX Library
+    implementation( "androidx.lifecycle:lifecycle-runtime-ktx:2.8.7")
+}
+
+secrets {
+    // To add your Maps API key to this project:
+    // 1. If the secrets.properties file does not exist, create it in the same folder as the local.properties file.
+    // 2. Add this line, where YOUR_API_KEY is your API key:
+    //        MAPS_API_KEY=YOUR_API_KEY
+    propertiesFileName = "secrets.properties"
+
+    // A properties file containing default secret values. This file can be
+    // checked in version control.
+    defaultPropertiesFileName = "local.defaults.properties"
+
+    // Configure which keys should be ignored by the plugin by providing regular expressions.
+    // "sdk.dir" is ignored by default.
+    ignoreList.add("keyToIgnore") // Ignore the key "keyToIgnore"
+    ignoreList.add("sdk.*")       // Ignore all keys matching the regexp "sdk.*"
 }
